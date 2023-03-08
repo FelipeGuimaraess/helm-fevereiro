@@ -1,0 +1,12 @@
+updateStrategy:
+ type: Recreate
+ rollingUpdate: null
+
+resources:
+ requests:
+   memory: 128Mi
+   cpu: 30m
+
+service:
+ type: ClusterIP
+
